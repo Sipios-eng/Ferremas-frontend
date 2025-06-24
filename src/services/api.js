@@ -3,7 +3,7 @@
 import axios from 'axios';
 import authService from './authService'; // <-- Importa authService
 
-const API_BASE_URL = 'http://localhost:8000/api/'; // URL de tu API de Django
+const API_BASE_URL = 'https://artmoya.pythonanywhere.com/api/'; // URL de tu API de Django
 
 const api = axios.create({
   baseURL: API_BASE_URL,
